@@ -1,3 +1,6 @@
 <div class="jumbotron">
   <h2>Hello <%= @name %>, from Phoenix!</h2>
+  <%= if @family_name do %>
+    <p>Your last name is <%= @family_name %></p>
+  <% end %>
 </div>

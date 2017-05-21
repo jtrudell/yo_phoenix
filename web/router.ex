@@ -19,6 +19,7 @@ defmodule YoPhoenix.Router do
     get "/", PageController, :index
     get "/hello", HelloController, :index
     get "/hello/:name", HelloController, :show
+    get "/hello/:name/:family_name", HelloController, :show
   end
 
   # Other scopes may use custom stacks.
