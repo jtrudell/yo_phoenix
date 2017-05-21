@@ -1,5 +1,9 @@
 # YoPhoenix
 
+This is my playing around with Phoenix app created using the HelloPhoenix app from the Phoenix getting started docs as a base.
+It does nothing useful, but I wrote tests (tests!).
+
+# Instructions from phoenixframework.org
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
